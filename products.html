@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>DigitalField</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    /* * {
+      box-sizing: border-box;
+    } */
+    
+    body {
+      background-color: #f1f1f1;
+      padding: 20px;
+      font-family: Arial;
+    }
+    
+    /* Center website */
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+    
+    .prh1 {
+      font-size: 50px;
+      word-break: break-all;
+    }
+    
+    .row {
+      margin: 10px -16px;
+    }
+    
+    /* Add padding BETWEEN each column */
+    .row,
+    .row > .column {
+      padding: 8px;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      display: none; /* Hide all elements by default */
+    }
+    
+    /* Clear floats after rows */ 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Content */
+    .content {
+      background-color: white;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      width: auto;
+    }
+    .content:hover{
+        box-shadow: 0 0 2px 1px rgba(1, 166, 221, 0.5);
+    }
+    /* The "show" class is added to the filtered elements */
+    .show {
+      display: block;
+    }
+    
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: white;
+      cursor: pointer;
+      margin-top: 5px;
+    }
+    
+    .btn:hover {
+      background-color: #ddd;
+    }
+    
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+    </style>
+</head>
+
+</head>
+<body>
+
+    <body class="sub_page">
+        <div class="hero_area">
+          <!-- header section strats -->
+          <header class="header_section">
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.png" alt="" />
+                  <span>
+                    Difi Agency
+                  </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+      
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto mr-2">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Products </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="service.html">Services</a>
+                    </li>
+      
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                  </ul>
+                  <div class="user_option">
+                    <div class="login_btn-container">
+                      <a href="">
+                        Login
+                      </a>
+                    </div>
+                    <form class="form-inline my-2 my-lg-0">
+                      <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                    </form>
+                  </div>
+                </div>
+                <div class="call_btn">
+                  <a href="">
+                    Call: +01234567890
+                  </a>
+                </div>
+              </nav>
+            </div>
+          </header>
+          <!-- end header section -->
+      
+      
+        </div>
+
+         <!-- custom menu -->
+  <div class="custom_menu-container">
+    <div class="container">
+      <div class="custom_menu">
+        <ul class="navbar-nav ">
+          <li class="nav-item active">
+            <a class="nav-link pl-0" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Products </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+        <div class="user_option">
+          <div class="login_btn-container">
+            <a href="">
+              Login
+            </a>
+          </div>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- custom menu -->
+
+
+<section class="prbody">
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 class="prh1">MYLOGO.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button></div>
+  <div id="myBtnContainer">
+  <button class="btn" onclick="filterSelection('website')"> Website Design</button>
+  <button class="btn" onclick="filterSelection('logo')"> Logo Design</button>
+  <button class="btn" onclick="filterSelection('seo')"> SEO</button>
+  <button class="btn" onclick="filterSelection('social')"> Social Media</button>
+  <button class="btn" onclick="filterSelection('illus')"> Illustration</button>
+  <button class="btn" onclick="filterSelection('vedioex')"> Video Explains</button>
+  <button class="btn" onclick="filterSelection('vedioedt')"> video Editing</button>
+  <button class="btn" onclick="filterSelection('photoedt')"> Photo Editing</button>
+  <button class="btn" onclick="filterSelection('voice')"> Voice Over</button>
+  <button class="btn" onclick="filterSelection('data')"> Data Entry</button>
+  <button class="btn" onclick="filterSelection('writ')"> Content Writing</button>
+  <button class="btn" onclick="filterSelection('book')"> Book Cover Design</button>
+  <button class="btn" onclick="filterSelection('trans')"> Translation</button>
+  <button class="btn" onclick="filterSelection('ads')"> Ads</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column website">
+    <div class="content">
+      <img src="/w3images/mountains.jpg" alt="Content Creation" style="width:100%">
+      <h4>Content Creation</h4>
+      <p>Now that we have a bigger picture of the site in mind, we can start creating content for the individual pages,
+         always keeping search engine optimization (SEO) in mind to help keep pages focused on a single topic.</p>
+    </div>
+  </div>
+  <div class="column website">
+    <div class="content">
+    <img src="/w3images/lights.jpg" alt="Testing" style="width:100%">
+      <h4>Testing</h4>
+      <p>Combine manual browsing of the site on a variety of devices with automated site crawlers to identify 
+        everything from user experience issues to simple broken links.</p>
+    </div>
+  </div>
+  <div class="column website">
+    <div class="content">
+    <img src="/w3images/nature.jpg" alt="Visual elements" style="width:100%">
+      <h4>Visual elements</h4>
+      <p> Depending on the client, this may already be well-defined, but you might also be defining the visual style 
+        from the ground up. Tools like style tiles, moodboards, and element collages can help with this process.</p>
+    </div>
+  </div>
+
+  <div class="column logo">
+    <div class="content">
+    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+      <h4>Word Mark</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column logo">
+    <div class="content">
+      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Letter Mark</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column logo">
+    <div class="content">
+    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Pictorial Mark</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column logo">
+    <div class="content">
+    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Abstract Mark</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column logo">
+    <div class="content">
+      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
+      <h4>Mascot Logo</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column logo">
+    <div class="content">
+    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
+      <h4>Combination Mark</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column logo">
+    <div class="content">
+    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+      <h4>Emblem Logo</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+    </div>
+    <div class="column seo">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+          <h4>Off Page SEO</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+        </div>
+    <div class="column seo">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>On Page SEO</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+        </div>
+    <div class="column seo">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Keyword Research</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column seo">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Technical SEO</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column seo">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Competitor SEO</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column seo">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Voice Search SEO</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column seo">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Full SEO Package</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+
+    <div class="column social">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Social Media Management</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column social">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Paid Social Media</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column social">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Organic social promotions</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column social">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Profile setup and integration</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Realistic</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Comic & Cartoon</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Anime & Manga</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Flat</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Line art</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Sketch</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Abstract</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Abstract</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Pop art</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Chibi</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Retro/Vintage</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Pixel art</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Doodle</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Technical</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Caricature</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Isometric</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Graffiti</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Low-Poly</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Calligraphy</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column illus">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Linocut</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column vedioex">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>2D Animated Explaining</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column vedioex">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Whiteboard animation</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column vedioex">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>3D Animated Explaining</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column vedioex">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Isometric explaining</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column vedioedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Reel</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column vedioedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Tik-Tok</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column vedioedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>YouTube</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column vedioedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Special effects</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column vedioedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Trending</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column photoedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>AI Art</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column photoedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Cover magazine</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column photoedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Enhanced picture quality</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column photoedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Retouching</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column photoedt">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Photo manipulation</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column voice">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>English</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column voice">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Hindi</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column voice">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Italian</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column voice">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Spanish</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column voice">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>German</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column voice">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Arabic</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column data">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Copy paste</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column data">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Web research</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column data">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Data formatting and cleaning</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column data">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Tagging & Annotation</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column writ">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Blog posts</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column writ">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Website content</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column writ">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Product description</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column writ">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Article</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column writ">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Social media posts</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column writ">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4> White paper writing</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column writ">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Case studies</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column writ">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>E-book</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column writ">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Video Scripts</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column book">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Hardback</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column book">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Paperback</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column book">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Softcover</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column trans">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Translation</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    <div class="column ads">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Google Ads</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column ads">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>intstagram Ads</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column ads">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Online Ads</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div><div class="column ads">
+        <div class="content">
+        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
+        <h4>Ads on all other social media</h4>
+        <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+</section>
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
